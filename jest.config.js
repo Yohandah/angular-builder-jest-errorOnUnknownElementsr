@@ -1,12 +1,6 @@
-globalThis.ngJest = {
-  testEnvironmentOptions: {
-    errorOnUnknownElements: true,
-    errorOnUnknownProperties: true,
-  }
-}
-
 module.exports = {
   displayName: 'AngularBuilders',
+  setupFilesAfterEnv: ['<rootDir>/setup.js'],
   modulePathIgnorePatterns: [
     '<rootDir>/dist/',
     '<rootDir>/cache/',
