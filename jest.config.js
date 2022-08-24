@@ -1,6 +1,6 @@
 module.exports = {
   displayName: 'AngularBuilders',
-  setupFilesAfterEnv: ['<rootDir>/setup.js'],
+  setupFilesAfterEnv: ['<rootDir>/setup-jest.js'],
   modulePathIgnorePatterns: [
     '<rootDir>/dist/',
     '<rootDir>/cache/',
