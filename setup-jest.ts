@@ -1,5 +1,3 @@
-import 'jest-preset-angular/setup-jest';
-
 // @ts-ignore
 globalThis.ngJest = {
   testEnvironmentOptions: {
@@ -7,3 +5,5 @@ globalThis.ngJest = {
     errorOnUnknownProperties: true,
   }
 }
+
+import 'jest-preset-angular/setup-jest';
